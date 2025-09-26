@@ -3,7 +3,7 @@
 A lightweight shell script to capture Java thread dumps (`jstack`) from a running Java process at regular intervals, and compress the results for easy sharing and analysis.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-./jstack_sampler.sh arg1-PID arg2-PNAME 
+./jstack_sampler.sh [arg1-PID] [arg2-PNAME] 
 
 e.g) ./jstack_sampler.sh $(cat "/opt/mapr/pid/cldb.pid") CLDB
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
