@@ -10,6 +10,7 @@ INTERVAL=15     # Interval between jstack dumps (in seconds)
 DURATION=600    # Total duration to run (in seconds, e.g. 600 = 10 mins)
 
 After successful execution, you’ll get:
+
 .
 ├── jstack_dumps_20250925_143000/
 │   ├── jstack_12345_20250925_143001.txt
