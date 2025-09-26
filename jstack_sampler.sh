@@ -4,7 +4,8 @@
 PID=$1                       # Java process ID
 INTERVAL=15                  # Interval in seconds (change to 10 or 15 as needed)
 DURATION=60                 # Total duration in seconds (10 minutes)
-OUT_DIR="jstack_dumps_$2_$(date +%Y%m%d_%H%M%S)"
+HOSTNAME=$(hostname)
+OUT_DIR="jstack_dumps_$2_${HOSTNAME}_$(date +%Y%m%d_%H%M%S)"
 ARCHIVE_NAME="${OUT_DIR}.tar.gz"
 # -------------------------------
 
