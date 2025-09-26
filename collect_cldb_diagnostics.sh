@@ -2,7 +2,8 @@
 
 # -------- Config --------
 TIMESTAMP=$(date '+%Y%m%d_%H%M%S')
-OUT_DIR="cldb_diagnostics_$TIMESTAMP"
+HOSTNAME=$(hostname)
+OUT_DIR="cldb_diagnostics_${HOSTNAME}_$TIMESTAMP"
 ARCHIVE_NAME="cldb_diagnostics_$TIMESTAMP.tar.gz"
 DURATION=30
 CRGUTS="/opt/mapr/bin/crguts"
